@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  demosite:
+    image: nhsuk/nhsuk-frontend:$DOCKER_IMAGE_TAG
+    command: npm start
+    labels:
+      io.rancher.container.pull_image: always
+      traefik.enable: true
+      traefik.frontend.rule: $TRAEFIK_RULE
+      traefik.backend: ${RANCHER_STACK_NAME}-demosite
+      traefik.port: 3000
