@@ -93,6 +93,10 @@
     {
       "label": "Breadcrumb",
       "url": "http://localhost:3000/pages/components/breadcrumb"
+    },
+    {
+      "label": "A-Z List",
+      "url": "http://localhost:3000/pages/components/a-z-list"
     }
   ],
   "paths": {
