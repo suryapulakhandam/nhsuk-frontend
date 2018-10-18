@@ -137,3 +137,20 @@
     top: -8px; /* [5] */
   }
 }
+
+/**
+ * Flex mixin
+ */
+
+@mixin flex() {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin flex-item() {
+  display: flex;
+
+  @include mq($until: desktop) {
+    flex: 0 0 100%;
+  }
+}
