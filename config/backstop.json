@@ -53,6 +53,10 @@
       "label": "Details",
       "url": "http://localhost:3000/pages/components/details",
       "clickSelector": ".nhsuk-details__summary"
+    },
+    {
+      "label": "Hero",
+      "url": "http://localhost:3000/pages/components/hero"
     }
   ],
   "paths": {
