@@ -48,6 +48,10 @@
     {
       "label": "Footer",
       "url": "http://localhost:3000/pages/components/footer"
+    },
+    {
+      "label": "Promo",
+      "url": "http://localhost:3000/pages/components/promo"
     }
   ],
   "paths": {
